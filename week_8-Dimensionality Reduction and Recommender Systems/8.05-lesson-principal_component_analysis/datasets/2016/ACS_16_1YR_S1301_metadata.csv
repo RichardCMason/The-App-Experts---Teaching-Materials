@@ -1,0 +1,323 @@
+GEO.id,Id
+GEO.id2,Id2
+GEO.display-label,Geography
+HC01_EST_VC01,Total; Estimate; Women 15 to 50 years
+HC01_MOE_VC01,Total; Margin of Error; Women 15 to 50 years
+HC02_EST_VC01,Women with births in the past 12 months  - Number; Estimate; Women 15 to 50 years
+HC02_MOE_VC01,Women with births in the past 12 months  - Number; Margin of Error; Women 15 to 50 years
+HC03_EST_VC01,Women with births in the past 12 months  - Percent Distribution; Estimate; Women 15 to 50 years
+HC03_MOE_VC01,Women with births in the past 12 months  - Percent Distribution; Margin of Error; Women 15 to 50 years
+HC04_EST_VC01,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; Women 15 to 50 years"
+HC04_MOE_VC01,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; Women 15 to 50 years"
+HC05_EST_VC01,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; Women 15 to 50 years
+HC05_MOE_VC01,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; Women 15 to 50 years
+HC01_EST_VC02,Total; Estimate; 15 to 19 years
+HC01_MOE_VC02,Total; Margin of Error; 15 to 19 years
+HC02_EST_VC02,Women with births in the past 12 months  - Number; Estimate; 15 to 19 years
+HC02_MOE_VC02,Women with births in the past 12 months  - Number; Margin of Error; 15 to 19 years
+HC03_EST_VC02,Women with births in the past 12 months  - Percent Distribution; Estimate; 15 to 19 years
+HC03_MOE_VC02,Women with births in the past 12 months  - Percent Distribution; Margin of Error; 15 to 19 years
+HC04_EST_VC02,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; 15 to 19 years"
+HC04_MOE_VC02,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; 15 to 19 years"
+HC05_EST_VC02,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; 15 to 19 years
+HC05_MOE_VC02,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; 15 to 19 years
+HC01_EST_VC03,Total; Estimate; 20 to 34 years
+HC01_MOE_VC03,Total; Margin of Error; 20 to 34 years
+HC02_EST_VC03,Women with births in the past 12 months  - Number; Estimate; 20 to 34 years
+HC02_MOE_VC03,Women with births in the past 12 months  - Number; Margin of Error; 20 to 34 years
+HC03_EST_VC03,Women with births in the past 12 months  - Percent Distribution; Estimate; 20 to 34 years
+HC03_MOE_VC03,Women with births in the past 12 months  - Percent Distribution; Margin of Error; 20 to 34 years
+HC04_EST_VC03,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; 20 to 34 years"
+HC04_MOE_VC03,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; 20 to 34 years"
+HC05_EST_VC03,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; 20 to 34 years
+HC05_MOE_VC03,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; 20 to 34 years
+HC01_EST_VC04,Total; Estimate; 35 to 50 years
+HC01_MOE_VC04,Total; Margin of Error; 35 to 50 years
+HC02_EST_VC04,Women with births in the past 12 months  - Number; Estimate; 35 to 50 years
+HC02_MOE_VC04,Women with births in the past 12 months  - Number; Margin of Error; 35 to 50 years
+HC03_EST_VC04,Women with births in the past 12 months  - Percent Distribution; Estimate; 35 to 50 years
+HC03_MOE_VC04,Women with births in the past 12 months  - Percent Distribution; Margin of Error; 35 to 50 years
+HC04_EST_VC04,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; 35 to 50 years"
+HC04_MOE_VC04,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; 35 to 50 years"
+HC05_EST_VC04,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; 35 to 50 years
+HC05_MOE_VC04,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; 35 to 50 years
+HC01_EST_VC07,Total; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race
+HC01_MOE_VC07,Total; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race
+HC02_EST_VC07,Women with births in the past 12 months  - Number; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race
+HC02_MOE_VC07,Women with births in the past 12 months  - Number; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race
+HC03_EST_VC07,Women with births in the past 12 months  - Percent Distribution; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race
+HC03_MOE_VC07,Women with births in the past 12 months  - Percent Distribution; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race
+HC04_EST_VC07,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race"
+HC04_MOE_VC07,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race"
+HC05_EST_VC07,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race
+HC05_MOE_VC07,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race
+HC01_EST_VC08,Total; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - White
+HC01_MOE_VC08,Total; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - White
+HC02_EST_VC08,Women with births in the past 12 months  - Number; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - White
+HC02_MOE_VC08,Women with births in the past 12 months  - Number; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - White
+HC03_EST_VC08,Women with births in the past 12 months  - Percent Distribution; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - White
+HC03_MOE_VC08,Women with births in the past 12 months  - Percent Distribution; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - White
+HC04_EST_VC08,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - White"
+HC04_MOE_VC08,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - White"
+HC05_EST_VC08,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - White
+HC05_MOE_VC08,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - White
+HC01_EST_VC09,Total; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American
+HC01_MOE_VC09,Total; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American
+HC02_EST_VC09,Women with births in the past 12 months  - Number; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American
+HC02_MOE_VC09,Women with births in the past 12 months  - Number; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American
+HC03_EST_VC09,Women with births in the past 12 months  - Percent Distribution; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American
+HC03_MOE_VC09,Women with births in the past 12 months  - Percent Distribution; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American
+HC04_EST_VC09,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American"
+HC04_MOE_VC09,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American"
+HC05_EST_VC09,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American
+HC05_MOE_VC09,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Black or African American
+HC01_EST_VC10,Total; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native
+HC01_MOE_VC10,Total; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native
+HC02_EST_VC10,Women with births in the past 12 months  - Number; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native
+HC02_MOE_VC10,Women with births in the past 12 months  - Number; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native
+HC03_EST_VC10,Women with births in the past 12 months  - Percent Distribution; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native
+HC03_MOE_VC10,Women with births in the past 12 months  - Percent Distribution; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native
+HC04_EST_VC10,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native"
+HC04_MOE_VC10,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native"
+HC05_EST_VC10,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native
+HC05_MOE_VC10,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - American Indian and Alaska Native
+HC01_EST_VC11,Total; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian
+HC01_MOE_VC11,Total; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian
+HC02_EST_VC11,Women with births in the past 12 months  - Number; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian
+HC02_MOE_VC11,Women with births in the past 12 months  - Number; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian
+HC03_EST_VC11,Women with births in the past 12 months  - Percent Distribution; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian
+HC03_MOE_VC11,Women with births in the past 12 months  - Percent Distribution; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian
+HC04_EST_VC11,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian"
+HC04_MOE_VC11,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian"
+HC05_EST_VC11,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian
+HC05_MOE_VC11,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Asian
+HC01_EST_VC12,Total; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander
+HC01_MOE_VC12,Total; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander
+HC02_EST_VC12,Women with births in the past 12 months  - Number; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander
+HC02_MOE_VC12,Women with births in the past 12 months  - Number; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander
+HC03_EST_VC12,Women with births in the past 12 months  - Percent Distribution; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander
+HC03_MOE_VC12,Women with births in the past 12 months  - Percent Distribution; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander
+HC04_EST_VC12,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander"
+HC04_MOE_VC12,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander"
+HC05_EST_VC12,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander
+HC05_MOE_VC12,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Native Hawaiian and Other Pacific Islander
+HC01_EST_VC13,Total; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race
+HC01_MOE_VC13,Total; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race
+HC02_EST_VC13,Women with births in the past 12 months  - Number; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race
+HC02_MOE_VC13,Women with births in the past 12 months  - Number; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race
+HC03_EST_VC13,Women with births in the past 12 months  - Percent Distribution; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race
+HC03_MOE_VC13,Women with births in the past 12 months  - Percent Distribution; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race
+HC04_EST_VC13,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race"
+HC04_MOE_VC13,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race"
+HC05_EST_VC13,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race
+HC05_MOE_VC13,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - One race - Some other race
+HC01_EST_VC14,Total; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races
+HC01_MOE_VC14,Total; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races
+HC02_EST_VC14,Women with births in the past 12 months  - Number; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races
+HC02_MOE_VC14,Women with births in the past 12 months  - Number; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races
+HC03_EST_VC14,Women with births in the past 12 months  - Percent Distribution; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races
+HC03_MOE_VC14,Women with births in the past 12 months  - Percent Distribution; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races
+HC04_EST_VC14,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races"
+HC04_MOE_VC14,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races"
+HC05_EST_VC14,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races
+HC05_MOE_VC14,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; RACE AND HISPANIC OR LATINO ORIGIN - Two or more races
+HC01_EST_VC16,Total; Estimate; Hispanic or Latino origin (of any race)
+HC01_MOE_VC16,Total; Margin of Error; Hispanic or Latino origin (of any race)
+HC02_EST_VC16,Women with births in the past 12 months  - Number; Estimate; Hispanic or Latino origin (of any race)
+HC02_MOE_VC16,Women with births in the past 12 months  - Number; Margin of Error; Hispanic or Latino origin (of any race)
+HC03_EST_VC16,Women with births in the past 12 months  - Percent Distribution; Estimate; Hispanic or Latino origin (of any race)
+HC03_MOE_VC16,Women with births in the past 12 months  - Percent Distribution; Margin of Error; Hispanic or Latino origin (of any race)
+HC04_EST_VC16,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; Hispanic or Latino origin (of any race)"
+HC04_MOE_VC16,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; Hispanic or Latino origin (of any race)"
+HC05_EST_VC16,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; Hispanic or Latino origin (of any race)
+HC05_MOE_VC16,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; Hispanic or Latino origin (of any race)
+HC01_EST_VC17,"Total; Estimate; White alone, not Hispanic or Latino"
+HC01_MOE_VC17,"Total; Margin of Error; White alone, not Hispanic or Latino"
+HC02_EST_VC17,"Women with births in the past 12 months  - Number; Estimate; White alone, not Hispanic or Latino"
+HC02_MOE_VC17,"Women with births in the past 12 months  - Number; Margin of Error; White alone, not Hispanic or Latino"
+HC03_EST_VC17,"Women with births in the past 12 months  - Percent Distribution; Estimate; White alone, not Hispanic or Latino"
+HC03_MOE_VC17,"Women with births in the past 12 months  - Percent Distribution; Margin of Error; White alone, not Hispanic or Latino"
+HC04_EST_VC17,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; White alone, not Hispanic or Latino"
+HC04_MOE_VC17,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; White alone, not Hispanic or Latino"
+HC05_EST_VC17,"Percent of women who had a birth in the past 12 months who were unmarried; Estimate; White alone, not Hispanic or Latino"
+HC05_MOE_VC17,"Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; White alone, not Hispanic or Latino"
+HC01_EST_VC20,Total; Estimate; NATIVITY - Native
+HC01_MOE_VC20,Total; Margin of Error; NATIVITY - Native
+HC02_EST_VC20,Women with births in the past 12 months  - Number; Estimate; NATIVITY - Native
+HC02_MOE_VC20,Women with births in the past 12 months  - Number; Margin of Error; NATIVITY - Native
+HC03_EST_VC20,Women with births in the past 12 months  - Percent Distribution; Estimate; NATIVITY - Native
+HC03_MOE_VC20,Women with births in the past 12 months  - Percent Distribution; Margin of Error; NATIVITY - Native
+HC04_EST_VC20,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; NATIVITY - Native"
+HC04_MOE_VC20,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; NATIVITY - Native"
+HC05_EST_VC20,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; NATIVITY - Native
+HC05_MOE_VC20,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; NATIVITY - Native
+HC01_EST_VC21,Total; Estimate; NATIVITY - Foreign born
+HC01_MOE_VC21,Total; Margin of Error; NATIVITY - Foreign born
+HC02_EST_VC21,Women with births in the past 12 months  - Number; Estimate; NATIVITY - Foreign born
+HC02_MOE_VC21,Women with births in the past 12 months  - Number; Margin of Error; NATIVITY - Foreign born
+HC03_EST_VC21,Women with births in the past 12 months  - Percent Distribution; Estimate; NATIVITY - Foreign born
+HC03_MOE_VC21,Women with births in the past 12 months  - Percent Distribution; Margin of Error; NATIVITY - Foreign born
+HC04_EST_VC21,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; NATIVITY - Foreign born"
+HC04_MOE_VC21,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; NATIVITY - Foreign born"
+HC05_EST_VC21,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; NATIVITY - Foreign born
+HC05_MOE_VC21,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; NATIVITY - Foreign born
+HC01_EST_VC24,Total; Estimate; EDUCATIONAL ATTAINMENT - Less than high school graduate
+HC01_MOE_VC24,Total; Margin of Error; EDUCATIONAL ATTAINMENT - Less than high school graduate
+HC02_EST_VC24,Women with births in the past 12 months  - Number; Estimate; EDUCATIONAL ATTAINMENT - Less than high school graduate
+HC02_MOE_VC24,Women with births in the past 12 months  - Number; Margin of Error; EDUCATIONAL ATTAINMENT - Less than high school graduate
+HC03_EST_VC24,Women with births in the past 12 months  - Percent Distribution; Estimate; EDUCATIONAL ATTAINMENT - Less than high school graduate
+HC03_MOE_VC24,Women with births in the past 12 months  - Percent Distribution; Margin of Error; EDUCATIONAL ATTAINMENT - Less than high school graduate
+HC04_EST_VC24,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; EDUCATIONAL ATTAINMENT - Less than high school graduate"
+HC04_MOE_VC24,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; EDUCATIONAL ATTAINMENT - Less than high school graduate"
+HC05_EST_VC24,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; EDUCATIONAL ATTAINMENT - Less than high school graduate
+HC05_MOE_VC24,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; EDUCATIONAL ATTAINMENT - Less than high school graduate
+HC01_EST_VC25,Total; Estimate; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+HC01_MOE_VC25,Total; Margin of Error; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+HC02_EST_VC25,Women with births in the past 12 months  - Number; Estimate; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+HC02_MOE_VC25,Women with births in the past 12 months  - Number; Margin of Error; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+HC03_EST_VC25,Women with births in the past 12 months  - Percent Distribution; Estimate; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+HC03_MOE_VC25,Women with births in the past 12 months  - Percent Distribution; Margin of Error; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+HC04_EST_VC25,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)"
+HC04_MOE_VC25,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)"
+HC05_EST_VC25,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+HC05_MOE_VC25,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; EDUCATIONAL ATTAINMENT - High school graduate (includes equivalency)
+HC01_EST_VC26,Total; Estimate; EDUCATIONAL ATTAINMENT - Some college or associate's degree
+HC01_MOE_VC26,Total; Margin of Error; EDUCATIONAL ATTAINMENT - Some college or associate's degree
+HC02_EST_VC26,Women with births in the past 12 months  - Number; Estimate; EDUCATIONAL ATTAINMENT - Some college or associate's degree
+HC02_MOE_VC26,Women with births in the past 12 months  - Number; Margin of Error; EDUCATIONAL ATTAINMENT - Some college or associate's degree
+HC03_EST_VC26,Women with births in the past 12 months  - Percent Distribution; Estimate; EDUCATIONAL ATTAINMENT - Some college or associate's degree
+HC03_MOE_VC26,Women with births in the past 12 months  - Percent Distribution; Margin of Error; EDUCATIONAL ATTAINMENT - Some college or associate's degree
+HC04_EST_VC26,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; EDUCATIONAL ATTAINMENT - Some college or associate's degree"
+HC04_MOE_VC26,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; EDUCATIONAL ATTAINMENT - Some college or associate's degree"
+HC05_EST_VC26,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; EDUCATIONAL ATTAINMENT - Some college or associate's degree
+HC05_MOE_VC26,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; EDUCATIONAL ATTAINMENT - Some college or associate's degree
+HC01_EST_VC27,Total; Estimate; EDUCATIONAL ATTAINMENT - Bachelor's degree
+HC01_MOE_VC27,Total; Margin of Error; EDUCATIONAL ATTAINMENT - Bachelor's degree
+HC02_EST_VC27,Women with births in the past 12 months  - Number; Estimate; EDUCATIONAL ATTAINMENT - Bachelor's degree
+HC02_MOE_VC27,Women with births in the past 12 months  - Number; Margin of Error; EDUCATIONAL ATTAINMENT - Bachelor's degree
+HC03_EST_VC27,Women with births in the past 12 months  - Percent Distribution; Estimate; EDUCATIONAL ATTAINMENT - Bachelor's degree
+HC03_MOE_VC27,Women with births in the past 12 months  - Percent Distribution; Margin of Error; EDUCATIONAL ATTAINMENT - Bachelor's degree
+HC04_EST_VC27,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; EDUCATIONAL ATTAINMENT - Bachelor's degree"
+HC04_MOE_VC27,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; EDUCATIONAL ATTAINMENT - Bachelor's degree"
+HC05_EST_VC27,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; EDUCATIONAL ATTAINMENT - Bachelor's degree
+HC05_MOE_VC27,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; EDUCATIONAL ATTAINMENT - Bachelor's degree
+HC01_EST_VC28,Total; Estimate; EDUCATIONAL ATTAINMENT - Graduate or professional degree
+HC01_MOE_VC28,Total; Margin of Error; EDUCATIONAL ATTAINMENT - Graduate or professional degree
+HC02_EST_VC28,Women with births in the past 12 months  - Number; Estimate; EDUCATIONAL ATTAINMENT - Graduate or professional degree
+HC02_MOE_VC28,Women with births in the past 12 months  - Number; Margin of Error; EDUCATIONAL ATTAINMENT - Graduate or professional degree
+HC03_EST_VC28,Women with births in the past 12 months  - Percent Distribution; Estimate; EDUCATIONAL ATTAINMENT - Graduate or professional degree
+HC03_MOE_VC28,Women with births in the past 12 months  - Percent Distribution; Margin of Error; EDUCATIONAL ATTAINMENT - Graduate or professional degree
+HC04_EST_VC28,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; EDUCATIONAL ATTAINMENT - Graduate or professional degree"
+HC04_MOE_VC28,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; EDUCATIONAL ATTAINMENT - Graduate or professional degree"
+HC05_EST_VC28,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; EDUCATIONAL ATTAINMENT - Graduate or professional degree
+HC05_MOE_VC28,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; EDUCATIONAL ATTAINMENT - Graduate or professional degree
+HC01_EST_VC31,Total; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined
+HC01_MOE_VC31,Total; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined
+HC02_EST_VC31,Women with births in the past 12 months  - Number; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined
+HC02_MOE_VC31,Women with births in the past 12 months  - Number; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined
+HC03_EST_VC31,Women with births in the past 12 months  - Percent Distribution; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined
+HC03_MOE_VC31,Women with births in the past 12 months  - Percent Distribution; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined
+HC04_EST_VC31,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined"
+HC04_MOE_VC31,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined"
+HC05_EST_VC31,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined
+HC05_MOE_VC31,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined
+HC01_EST_VC32,Total; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level
+HC01_MOE_VC32,Total; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level
+HC02_EST_VC32,Women with births in the past 12 months  - Number; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level
+HC02_MOE_VC32,Women with births in the past 12 months  - Number; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level
+HC03_EST_VC32,Women with births in the past 12 months  - Percent Distribution; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level
+HC03_MOE_VC32,Women with births in the past 12 months  - Percent Distribution; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level
+HC04_EST_VC32,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level"
+HC04_MOE_VC32,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level"
+HC05_EST_VC32,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level
+HC05_MOE_VC32,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - Below 100 percent of poverty level
+HC01_EST_VC33,Total; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level
+HC01_MOE_VC33,Total; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level
+HC02_EST_VC33,Women with births in the past 12 months  - Number; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level
+HC02_MOE_VC33,Women with births in the past 12 months  - Number; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level
+HC03_EST_VC33,Women with births in the past 12 months  - Percent Distribution; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level
+HC03_MOE_VC33,Women with births in the past 12 months  - Percent Distribution; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level
+HC04_EST_VC33,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level"
+HC04_MOE_VC33,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level"
+HC05_EST_VC33,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level
+HC05_MOE_VC33,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 100 to 199 percent of poverty level
+HC01_EST_VC34,Total; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level
+HC01_MOE_VC34,Total; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level
+HC02_EST_VC34,Women with births in the past 12 months  - Number; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level
+HC02_MOE_VC34,Women with births in the past 12 months  - Number; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level
+HC03_EST_VC34,Women with births in the past 12 months  - Percent Distribution; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level
+HC03_MOE_VC34,Women with births in the past 12 months  - Percent Distribution; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level
+HC04_EST_VC34,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level"
+HC04_MOE_VC34,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level"
+HC05_EST_VC34,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level
+HC05_MOE_VC34,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; POVERTY STATUS IN THE PAST 12 MONTHS - Women 15 to 50 years for whom poverty status is determined - 200 percent or more above poverty level
+HC01_EST_VC37,Total; Estimate; LABOR FORCE STATUS - Women 16 to 50 years
+HC01_MOE_VC37,Total; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years
+HC02_EST_VC37,Women with births in the past 12 months  - Number; Estimate; LABOR FORCE STATUS - Women 16 to 50 years
+HC02_MOE_VC37,Women with births in the past 12 months  - Number; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years
+HC03_EST_VC37,Women with births in the past 12 months  - Percent Distribution; Estimate; LABOR FORCE STATUS - Women 16 to 50 years
+HC03_MOE_VC37,Women with births in the past 12 months  - Percent Distribution; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years
+HC04_EST_VC37,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; LABOR FORCE STATUS - Women 16 to 50 years"
+HC04_MOE_VC37,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years"
+HC05_EST_VC37,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; LABOR FORCE STATUS - Women 16 to 50 years
+HC05_MOE_VC37,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years
+HC01_EST_VC38,Total; Estimate; LABOR FORCE STATUS - Women 16 to 50 years - In labor force
+HC01_MOE_VC38,Total; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years - In labor force
+HC02_EST_VC38,Women with births in the past 12 months  - Number; Estimate; LABOR FORCE STATUS - Women 16 to 50 years - In labor force
+HC02_MOE_VC38,Women with births in the past 12 months  - Number; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years - In labor force
+HC03_EST_VC38,Women with births in the past 12 months  - Percent Distribution; Estimate; LABOR FORCE STATUS - Women 16 to 50 years - In labor force
+HC03_MOE_VC38,Women with births in the past 12 months  - Percent Distribution; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years - In labor force
+HC04_EST_VC38,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; LABOR FORCE STATUS - Women 16 to 50 years - In labor force"
+HC04_MOE_VC38,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years - In labor force"
+HC05_EST_VC38,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; LABOR FORCE STATUS - Women 16 to 50 years - In labor force
+HC05_MOE_VC38,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; LABOR FORCE STATUS - Women 16 to 50 years - In labor force
+HC01_EST_VC41,Total; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years
+HC01_MOE_VC41,Total; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years
+HC02_EST_VC41,Women with births in the past 12 months  - Number; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years
+HC02_MOE_VC41,Women with births in the past 12 months  - Number; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years
+HC03_EST_VC41,Women with births in the past 12 months  - Percent Distribution; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years
+HC03_MOE_VC41,Women with births in the past 12 months  - Percent Distribution; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years
+HC04_EST_VC41,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years"
+HC04_MOE_VC41,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years"
+HC05_EST_VC41,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years
+HC05_MOE_VC41,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years
+HC01_EST_VC42,Total; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income
+HC01_MOE_VC42,Total; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income
+HC02_EST_VC42,Women with births in the past 12 months  - Number; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income
+HC02_MOE_VC42,Women with births in the past 12 months  - Number; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income
+HC03_EST_VC42,Women with births in the past 12 months  - Percent Distribution; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income
+HC03_MOE_VC42,Women with births in the past 12 months  - Percent Distribution; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income
+HC04_EST_VC42,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income"
+HC04_MOE_VC42,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income"
+HC05_EST_VC42,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income
+HC05_MOE_VC42,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Received public assistance income
+HC01_EST_VC43,Total; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income
+HC01_MOE_VC43,Total; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income
+HC02_EST_VC43,Women with births in the past 12 months  - Number; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income
+HC02_MOE_VC43,Women with births in the past 12 months  - Number; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income
+HC03_EST_VC43,Women with births in the past 12 months  - Percent Distribution; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income
+HC03_MOE_VC43,Women with births in the past 12 months  - Percent Distribution; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income
+HC04_EST_VC43,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income"
+HC04_MOE_VC43,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income"
+HC05_EST_VC43,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income
+HC05_MOE_VC43,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; PUBLIC ASSISTANCE INCOME IN THE PAST 12 MONTHS - Women 15 to 50 years - Did not receive public assistance income
+HC01_EST_VC46,Total; Estimate; PERCENT ALLOCATED - Marital status
+HC01_MOE_VC46,Total; Margin of Error; PERCENT ALLOCATED - Marital status
+HC02_EST_VC46,Women with births in the past 12 months  - Number; Estimate; PERCENT ALLOCATED - Marital status
+HC02_MOE_VC46,Women with births in the past 12 months  - Number; Margin of Error; PERCENT ALLOCATED - Marital status
+HC03_EST_VC46,Women with births in the past 12 months  - Percent Distribution; Estimate; PERCENT ALLOCATED - Marital status
+HC03_MOE_VC46,Women with births in the past 12 months  - Percent Distribution; Margin of Error; PERCENT ALLOCATED - Marital status
+HC04_EST_VC46,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; PERCENT ALLOCATED - Marital status"
+HC04_MOE_VC46,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; PERCENT ALLOCATED - Marital status"
+HC05_EST_VC46,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; PERCENT ALLOCATED - Marital status
+HC05_MOE_VC46,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; PERCENT ALLOCATED - Marital status
+HC01_EST_VC47,Total; Estimate; PERCENT ALLOCATED - Fertility
+HC01_MOE_VC47,Total; Margin of Error; PERCENT ALLOCATED - Fertility
+HC02_EST_VC47,Women with births in the past 12 months  - Number; Estimate; PERCENT ALLOCATED - Fertility
+HC02_MOE_VC47,Women with births in the past 12 months  - Number; Margin of Error; PERCENT ALLOCATED - Fertility
+HC03_EST_VC47,Women with births in the past 12 months  - Percent Distribution; Estimate; PERCENT ALLOCATED - Fertility
+HC03_MOE_VC47,Women with births in the past 12 months  - Percent Distribution; Margin of Error; PERCENT ALLOCATED - Fertility
+HC04_EST_VC47,"Women with births in the past 12 months  - Rate per 1,000 women; Estimate; PERCENT ALLOCATED - Fertility"
+HC04_MOE_VC47,"Women with births in the past 12 months  - Rate per 1,000 women; Margin of Error; PERCENT ALLOCATED - Fertility"
+HC05_EST_VC47,Percent of women who had a birth in the past 12 months who were unmarried; Estimate; PERCENT ALLOCATED - Fertility
+HC05_MOE_VC47,Percent of women who had a birth in the past 12 months who were unmarried; Margin of Error; PERCENT ALLOCATED - Fertility
