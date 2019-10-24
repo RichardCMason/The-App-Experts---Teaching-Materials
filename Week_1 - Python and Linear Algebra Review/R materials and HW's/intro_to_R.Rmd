@@ -1,0 +1,647 @@
+---
+title: "Intro to R"
+output: html_notebook
+---
+
+# Integers, Numerics, and Doubles
+
+```{r}
+typeof(2)
+
+typeof(2L)
+
+typeof(as.integer(2))
+typeof(as.numeric(2))
+typeof(as.double(2))
+
+class(2)
+
+2 + 3      # Addition
+2 - 3      # Subtraction
+2 * 3      # Multiplication
+2 / 3      # Division
+2^3        # Exponentiation
+2**3       # Exponentiation
+2 %% 3     # Modular Residue
+```
+
+
+# Characters
+
+Characters are the R name for strings.
+
+```{r}
+typeof("A string")
+class("A string")
+
+paste("A", "string")
+
+paste("A", "string", sep="")
+paste0("A", "string")
+
+"A string"[1]      # We'll discuss this when you're older
+
+length("A string")
+nchar("A string")
+
+substr("A string", 1, 1)
+substr("A string", 1, nchar("A string"))
+substr("A string", 1, 2)
+substr("A string", 2, nchar("A string")-1)
+```
+
+# Logicals
+
+Logicals are the R name for Booleans
+
+```{r}
+TRUE
+FALSE
+
+5 * TRUE
+5 * FALSE
+
+TRUE && FALSE     # Logical AND
+TRUE & FALSE      # Logical AND (vectorized)
+TRUE || FALSE     # Logical OR
+TRUE | FALSE      # Logical OR (vectorized)
+!TRUE             # Logical Negation, or NOT
+
+2 > 3
+2 < 3
+2 >= 3
+2 <= 3
+2 == 3
+2 != 3
+```
+
+# Vectors
+
+Vectors are a collection of elements.  These are less general than Python lists, because they do not allow you to store objects of different types or classes in the same vector.  Also, it's important to know that the vector is truly the workhorse of the R language.  *EVERYTHING* is a vector!
+
+```{r}
+v <- c(1,2,3,4)
+s <- c("This", "is", "a", "character", "vector")
+l <- c(TRUE, FALSE, TRUE, TRUE)
+x <- c(1, "2", FALSE)
+x
+
+length(v)
+length(s)
+length(l)
+
+is.vector(v)
+is.vector(s)
+is.vector(l)
+
+is.vector(2)
+is.vector("A string")
+is.vector(TRUE)
+
+v[1]
+v[2]
+v[1:3]
+v[3:length(v)]
+v[-(length(v) - 1)]
+v[c(1, length(v))]
+v[-c(1, length(v))]
+1:10
+v[1:10]
+v[c(TRUE, FALSE, FALSE, FALSE)]
+```
+
+```{r}
+v**2
+u <- c(2,3,4,5)
+
+2 * v
+u + v
+u - v
+u * v
+u / v
+u^v
+u**v
+u %% v
+```
+
+```{r}
+v <- c(3, 1, 4, 4)
+v[5] <- 3
+
+u > v
+u < v
+u >= v
+u <= v
+u == v
+u != v
+u > 3
+```
+
+```{r}
+v[v > 3]
+
+z <- c(u, v)
+z
+
+u <- c(1,2,3)
+v <- c(4,5,6)
+```
+
+# Factors
+
+A factor is the data type in R for handling categorical variables.  Factors are more memory efficient than characters, but they do come with some dangers (more on this later).
+
+```{r}
+neighborhood <- c(
+  "The Bluffs",
+  "Armory Park",
+  "The Foothills",
+  "The Bluffs",
+  "Armory Park")
+
+neighborhood <- factor(neighborhood)
+
+typeof(neighborhood)
+class(neighborhood)
+
+neighborhood
+```
+
+
+# Dates
+
+```{r}
+d <- as.Date("2018-09-05")
+d
+
+typeof(d)
+class(d)
+
+as.Date("September 9, 2018", format = "%B %d, %Y")
+
+d + 1
+d - 7
+
+1:10
+seq(as.Date("2018-01-01"),
+    as.Date("2018-12-01"),
+    by = "week")
+
+as.Date("2018-09-05 12:20:39",
+        format = "%Y-%m-%d %H:%M:%S")
+
+as.Date("2018-09-05") - as.Date("2018-09-01")
+```
+
+
+# Generic Vectors (Lists)
+
+```{r}
+l <- list(1, "2", FALSE, 1:20, 21:40)
+l
+
+l[[1]]
+l[[4]][3:10]
+l[[4]][1:10] - l[[5]][11:20]
+```
+
+```{r}
+names(l)
+
+names(l) <- c("A", "B", "C", "D", "E")
+names(l)
+```
+
+```{r}
+l$D
+```
+
+
+# Matrices
+
+```{r}
+m <- matrix(c(1,2,3,4), nrow = 2, byrow = TRUE)
+m
+
+m1 <- matrix(c(1,2,3,4), nrow = 2, byrow = TRUE)
+m2 <- matrix(c(2,3,4,5), nrow = 2, byrow = TRUE)
+
+2 * m1       # Scalar Multiplication
+m1 + m2      # Matrix Addition
+m1 - m2      # Matrix Subtraction
+m1 * m2      # Element-wise Multiplication
+m1 / m2      # Element-wise Division
+m1^m2        # Element-wise Exponentiation
+m1 %% m2     # Element-wise Modular Residue
+
+m1 %*% m2    # Matrix Multiplication
+t(m1)        # Transpose
+
+u <- c(1,2,3,4)
+v <- c(1,2,3,4)
+
+t(u) %*% v
+```
+
+```{r}
+m[1,2]
+m[1,]
+m[,2]
+
+m[m > 1]
+
+m3 <- matrix(1:20, nrow = 4, byrow = TRUE)
+m3
+
+m3[2:3,]
+
+m3[c(1, 2), c(1, 3)]
+```
+
+```{r}
+typeof(m)
+class(m)
+
+is.vector(m)
+
+m + c(1,2,3,4)
+```
+
+```{r}
+char_m <- matrix(c("a", "b", "c", "d"), nrow = 2)
+char_m
+```
+
+# Data Frames
+
+Data Frames are how general tabular data are represented in R.  R Data Frames can be thought of as generic vectors containing vectors which are all the same length.  Then each vector in the Data Frame represents the column of a table, while the __i__-th element of each vector corresponds to the __i__-th row of the table.
+
+```{r}
+df <- data.frame(
+  "A" = c(1,2,3,4),
+  "B" = c(4,5,6,7),
+  "C" = c(5,7,9,10))
+View(df)
+```
+
+```{r}
+length(df)
+
+nrow(df)
+ncol(df)
+```
+
+## Querying a Data Frame
+
+```{r}
+df$A[1:2]
+
+df[, 1]
+df[1, ]
+df[1, 2:3]
+
+df$A
+df["A"]
+View(df[c(1,3), "A"])
+View(df[c(1,3), c("A", "C")])
+
+View(df[df$A > 1,])
+```
+
+
+# Missing Data (NA and NULL)
+
+NULL means that a value simply does not exist.
+
+```{r}
+typeof(NULL)
+class(NULL)
+
+is.null(NULL)
+
+
+```
+
+NA means that a value exists, but is unknown.
+
+```{r}
+x <- c(3, 4, 2, 4, 3, NA, NULL)
+s <- c("a", "b", "c", NA)
+l <- c(TRUE, FALSE, NA)
+
+class(x)
+x[length(x)]
+class(x[length(x)])
+
+class(s[length(s)])
+```
+
+```{r}
+sum(x)
+mean(x)
+median(x)
+sd(x)
+
+sum(x, na.rm = TRUE)
+mean(x, na.rm = TRUE)
+
+is.na(x)
+sum(is.na(x))        # Count of NAs in a vector
+mean(is.na(x))       # Proportion of NAs in a vector
+
+is.null(NA)
+```
+
+NaN means the result was not a real number, or was not defined.  This almost always results from dividing by 0, or when the result would be complex.
+
+```{r}
+sqrt(-1)
+
+is.nan(NaN)
+is.nan(c(1, 2, NaN, NA))
+```
+
+Inf or -Inf results from a number becoming too large.  In newer versions of R, this is also the result of dividing by 0.
+
+```{r}
+2 / 0
+
+is.finite(c(Inf, 2, 3, -Inf, NA, NaN))
+is.infinite(c(Inf, 2, 3, -Inf, NA, NaN))
+```
+
+```{r}
+is.finite(c(Inf, 2, 3, -Inf, NA, NaN))
+!is.finite(c(Inf, 2, 3, -Inf, NA, NaN))
+```
+
+```{r}
+df <- data.frame(
+  "A" = c(1, 2, 3, NA),
+  "B" = c(2, Inf, 4, 5),
+  "C" = c(NaN, 4, 5, 6)
+)
+
+View(df)
+complete.cases(df)
+
+sum(complete.cases(df))
+nrow(df) - sum(complete.cases(df))
+mean(complete.cases(df))
+1 - mean(complete.cases(df))
+
+View(df[complete.cases(df),])
+```
+
+# Loops
+
+## For loops
+
+```{r}
+x <- 1:20
+for (i in x) {
+  print(i)
+  print("We're doing some other stuff.")
+}
+
+for (i in 1:length(x)) {
+  print(x[i])
+}
+```
+
+```{r}
+x <- vector(length = 0)
+
+for (i in 1:length(x)) print(i)   # What if length(x) = 0?
+
+v <- c("a", "b", "c")
+seq(v)
+seq_along(v)
+
+for (i in seq_along(x)) print(i)  # This is safer
+```
+
+## While loops
+
+```{r}
+i <- 0
+while (i < 10) {
+  print(i)
+  i <- i + 1
+}
+
+i <- 0
+
+while (TRUE) {
+  print(i)
+  i <- i + 1
+  
+  if (i >=10) break
+}
+```
+
+## Repeat Loops
+
+Repeat loops are identical to while (TRUE) loops.  These will run indefinitely unless a break condition is specified within the loop.
+
+```{r}
+i <- 0
+
+repeat {
+  print(i)
+  i <- i + 1
+  
+  if (i >= 10) break
+}
+```
+
+## Vectorization of Functions
+
+```{r}
+x <- c(1,2,3,4,5)
+y <- c(3,1,5,4,2)
+s <- c("This is a string.", "So is this.", "Me too!")
+
+s <- strsplit(s, " ")
+s
+```
+
+```{r}
+x^2
+
+sum(x)
+max(x)
+max(y)
+
+max(x) > max(y)
+
+pmax(x, y)
+```
+
+## Vectorized comparisons revisited
+
+```{r}
+x > 3
+y > 3
+
+x > 3 & y > 3
+
+x > 3 && y > 3
+
+x > 3 | y > 3
+
+x > 3 || y > 3
+```
+
+# Control Structures
+
+These are the "if", "else" type-statements in R.
+
+```{r}
+x <- 3
+
+if (x < 2) {
+  print("x is small.")
+} else if (x < 8) {
+  print("x is medium.")
+} else {
+  print("x is large.")
+}
+
+if (x > 2 & x < 8) print("Awww yeah!")
+```
+
+```{r}
+x <- c(1,2,3,4,5)
+y <- c(3,1,5,4,2)
+
+ifelse(x >= y, x, y)
+```
+
+
+# Functions
+
+```{r}
+func_name <- function(x, a = 1, na.rm = FALSE) {
+  
+  if (na.rm) x <- x[is.finite]
+  
+  y <- x * 5
+  z <- y + 4
+  
+  z
+}
+
+func_name(x)
+```
+
+## Useful Built-in Functions
+
+```{r}
+x <- c(1:10, 2:11, 3:12, 51)
+x
+
+table(x)
+prop.table(table(x))
+```
+
+```{r}
+unique(x)
+length(unique(x))
+```
+
+```{r}
+y <- c(4:13, 1:10, 2:11, 49)
+max(x)
+min(x)
+pmax(x, y)
+pmin(x, y)
+
+which(x > 5)
+which(x == max(x))
+which(x == min(x))
+
+which.max(x)
+which.min(x)
+```
+
+```{r}
+a <- c(FALSE, TRUE, TRUE, FALSE)
+
+which.max(a)      # Returns index of first TRUE
+which.min(a)      # Returns index of first FALSE
+
+which.max(x > 5)
+which.min(x > 5)
+```
+
+```{r}
+sum(x)
+prod(x)
+mean(x)
+median(x)
+sd(x)
+var(x)
+fivenum(x)
+```
+
+```{r}
+str(x)
+str(df)
+
+unique(df)
+```
+
+```{r}
+s <- c("This is a string.", "So is this.", "This too.")
+
+grep(pattern = "This", x = s)
+grepl(pattern = "This", x = s)
+
+sub("This", "That", s)
+gsub("This", "That", s)
+gsub("This", "That", s, ignore.case = TRUE)
+```
+
+
+# Regular Expressions
+
+```{r}
+"^"             # The beginning of the string
+"$"             # The end of the string
+"|"             # Or
+"[EDF]"         # Groups (has these characters)
+"[^EDF]"        # Exclusion
+"[A-Z]"         # All capital letter
+"[a-z]"         # All lower case letters
+"[A-Za-z]"      # All letters
+"[0-9]"         # All digits
+"[:alpha:]"     # All letters
+"[:digit:]"     # All digits
+"[:alnum:]"     # All alphanumeric characters
+"[:space:]"     # All whitespace
+"[:punct:]"     # All punctuation
+"\""            # Just pay attention to the \ This is escape
+"\\$"
+
+gsub("\\$|,", "", x)
+gsub("[\\$,]", "", x)
+```
+
+```{r}
+"mph"
+"MPH"
+"kph"
+"k/h"
+ifelse(grepl("mph", speeds),
+       as.numeric(gsub("mph", "", speeds)) * 1.609,
+       ifelse(grepl("kph", speeds),
+              as.numeric(gsub("kph", "", speeds)),
+              as.numeric(gsub("k/h", "", speeds))
+              )
+       )
+
+sum(is.na(df$x))
+
+df$x[is.na(df_new$x)]
+```

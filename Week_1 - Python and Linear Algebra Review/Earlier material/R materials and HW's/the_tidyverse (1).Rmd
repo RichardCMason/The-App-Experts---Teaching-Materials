@@ -1,0 +1,409 @@
+---
+title: "The tidyverse"
+output: html_notebook
+---
+
+# dplyr
+
+This is the workhorse package for data maniplation in the R tidyverse.  This package allows us to think about data frame manipulations in terms of table "verbs."
+
+This function also implements the forward pipe operator, which is, in Hadley Wikham's words, "syntactic sugar."  It makes the syntax of our R code nicer and more readable.  The syntax of the forward pipe operator is as follows.
+
+```{r}
+# Standard syntax
+f(x)
+
+# Pipe operator syntax
+x %>% f()
+```
+
+It may not be clear why this is awsome from the example above, but the forward pipe really shines in situations where we are making multiple function calls.
+
+```{r}
+require(dplyr)
+```
+
+```{r}
+# Standard syntax
+h(g(f(x), other_args))
+
+# Pipe operator syntax
+x %>%
+  f() %>%
+  g(other_args) %>%
+  h()
+```
+
+## Single Table Verbs
+
+### rename and select
+
+This is the function for renaming/reformatting our variables.  The rename function will rename any variables you tell it to rename, but it will keep all variables in the data frame.
+
+```{r}
+# Standard syntax
+rename(data, ...)
+
+# Pipe operator syntax
+data %>%
+  rename(...)
+```
+
+```{r}
+iris %>%
+  rename(sepal_length = Sepal.Length) %>%
+  View()
+```
+
+On the other hand, select is the function for selecting subsets of columns in a data frame, and these columns may be renamed during selection.  Because of this, select will only keep variables you mention.
+
+```{r}
+iris %>%
+  select(sepal_length = Sepal.Length) %>%
+  View()
+```
+```{r}
+iris %>%
+  select(
+    sepal_length = Sepal.Length,
+    Species
+    ) %>%
+  View()
+```
+
+Sometimes it's faster to say what you don't want to keep.
+
+```{r}
+iris %>%
+  select(
+    -Sepal.Length,
+    -Petal.Length
+    ) %>%
+  View()
+```
+
+### filter
+
+This function allows to filter rows on conditions we define.
+
+```{r}
+# Standard syntax
+filter(data, ...)
+
+# Pipe operator syntax
+data %>%
+  filter(...)
+```
+
+Let's use a dataset to see this in action.
+
+```{r}
+iris %>%
+  filter(
+    Petal.Width > 0.4,
+    Sepal.Length > 4,
+    is.element(Species, c("setosa", "versicolor"))
+  ) %>%
+  View()
+```
+
+### slice
+
+The slice function subsets the rows by index number.
+
+```{r}
+iris %>%
+  slice(c(1:10, 50:71)) %>%
+  View()
+```
+
+### mutate
+
+The mutate function is used to create new columns or variables within a data frame.  Any new variable created must have a length equal to the number of rows in the data frame.
+
+```{r}
+iris %>%
+  mutate(
+    is_setosa = as.integer(Species == "setosa"),
+    sepal_harm_mean = (Sepal.Length + Sepal.Width) / (Sepal.Length * Sepal.Width)
+    ) %>%
+  View()
+```
+
+### arrange
+
+The arrange function is how we order observations within a data frame based on values in one or more columns.
+
+```{r}
+iris %>%
+  arrange(Sepal.Length) %>%
+  View()
+```
+```{r}
+iris %>%
+  arrange(-Sepal.Length) %>%
+  View()
+```
+```{r}
+iris %>%
+  arrange(
+    -Sepal.Length,
+    -Sepal.Width
+    ) %>%
+  View()
+```
+
+### group_by and summarise
+
+These two functions are almost always used together to aggregate and calculate summary metrics within a data set.
+
+```{r}
+require(ggplot2)
+
+diamonds %>%
+  group_by(
+    color,
+    cut,
+    clarity
+    ) %>%
+  summarise(
+    mean_price = mean(price),
+    med_price = median(price),
+    sd_price = sd(price),
+    n = n()
+    ) %>%
+  View()
+```
+
+## Two Table Verbs
+
+### Inner Joins
+
+Keeps only the rows for which a match was found in both tables.
+
+```{r}
+df1 <- data_frame(
+  name = c("John", "Pam", "Sarah", "Tony"),
+  height = c(181, 165, 170, 179)
+)
+
+df2 <- data_frame(
+  name = c("Frank", "Pam", "Sarah", "John"),
+  weight = c(84, 52, 57, 80)
+)
+```
+
+```{r}
+inner_join(df1, df2) %>% View()
+```
+```{r}
+df1 %>%
+  inner_join(df2, by = "name") %>%
+  View()
+```
+
+
+### Left Join
+
+This type of join will keep everything in the "left" data frame, but only the observations in the "right" data frame for which a match was found.
+
+```{r}
+df1 %>%
+  left_join(df2, by = "name") %>%
+  View()
+```
+
+```{r}
+# Join has gone wrong due to multiples of key values
+nrow(df_before) < nrows(df_after)
+
+# If everything's OK
+nrow(df_before) == nrows(df_after)
+
+# To check your key
+length(unique(key)) == length(key)
+```
+
+
+### Right Join
+
+These are the same as a left join, but with the "left" and "right" logic reversed.
+
+```{r}
+df1 %>%
+  right_join(df2, by = "name") %>%
+  View()
+```
+
+### Full Join (Also called Outer or Full Outer Join)
+
+This keeps everything in both tables.
+
+```{r}
+df1 %>%
+  full_join(df2, by = "name") %>%
+  View()
+```
+
+### Anti Join and Semi Join
+
+Both anti join and semi join only keep observations from the "left" table.
+
+Anti join only keeps observations in the "left" table NOT found in the "right"
+
+Semi join only keeps observations in the "left" table found in the "right"
+
+```{r}
+df1 %>%
+  anti_join(df2, by = "name") %>%
+  View()
+```
+```{r}
+df1 %>%
+  semi_join(df2, by = "name") %>%
+  View()
+```
+
+## Multi-Table Verbs
+
+There are two important multitable verbs we will learn in dplyr.  These are bind_rows and bind_cols.
+
+### bind_rows
+
+This function "stacks" data frames vertically.  The base package in R has a function called rbind, which also does this, but bind_rows is a little more flexible and faster.
+
+```{r}
+df1 <- data_frame(
+  sale_id = 1:4,
+  amount = c(10, 4, 23, 11),
+  dept = c("A", "B", "A", "C"),
+  region = c("USA", "UK", "CAN", "EU")
+)
+
+df2 <- data_frame(
+  sale_id = 5:8,
+  amount = c(21, 67, 54, 2),
+  dept = c("R", "B", "C", "D")
+)
+```
+```{r}
+bind_rows(df1, df2) %>% View()
+```
+
+
+# reshape2
+
+The primary functionality of reshape2 is melting casting data frames.  Melting is the process of making "wide" or "cast" data "long" or "molten".  Casting is the process of making "long" or "molten" data "wide" or "cast".
+
+## melt
+
+```{r}
+require(reshape2)
+df <- data_frame(
+  subject = c("Math", "Biology", "Western Civilization"),
+  mid1 = c(99, 89, 90),
+  mid2 = c(100, 99, 98),
+  final = c(99, 99, 99)
+)
+View(df)
+```
+```{r}
+df <- melt(df,
+           id.vars = "subject",
+           measure.var = c("mid1", "mid2", "final"),
+           variable.name = "exam",
+           value.name = "score"
+           )
+
+View(df)
+```
+
+
+## cast
+
+```{r}
+df <- dcast(df, subject ~ exam, value.var = "score")
+View(df)
+```
+
+
+# ggplot2
+
+```{r}
+require(ggplot2)
+require(dplyr)
+```
+
+```{r}
+require(scales)
+
+diamonds %>%
+  ggplot(aes(x = carat, y = price)) +
+  geom_point(alpha = 0.5) +
+  scale_y_continuous(labels = dollar, limits = c(1e4, 1.5e4)) +
+  scale_x_continuous(limits = c(1, 2)) +
+  labs(
+    x = "Carat",
+    y = "Price (USD)",
+    title = "Diamond Price vs Carat")
+```
+
+```{r}
+diamonds %>%
+  ggplot(aes(x = carat, y = price, color = cut)) +
+  geom_point(alpha = 0.5) +
+  scale_y_continuous(labels = dollar, limits = c(1e4, 1.5e4)) +
+  scale_x_continuous(limits = c(1, 2)) +
+  theme(
+    legend.position = "bottom",
+    legend.direction = "horizontal"
+    ) +
+  labs(
+    x = "Carat",
+    y = "Price (USD)",
+    color = "Cut Quality",
+    title = "Diamond Price vs Carat")
+```
+
+```{r}
+diamonds %>%
+  ggplot(aes(x = cut, y = price)) +
+  geom_boxplot(outlier.alpha = 0) +
+  scale_y_continuous(labels = dollar) +
+  coord_flip() +
+  labs(
+    x = "Cut Quality",
+    y = "Price (USD)",
+    title = "Price by Cut Quality"
+  )
+```
+
+```{r}
+diamonds %>%
+  group_by(cut) %>%
+  summarise(mean_price = mean(price)) %>%
+  ggplot(aes(x = cut, weight = mean_price)) +
+  geom_bar() +
+  scale_y_continuous(label = dollar) +
+  labs(
+    x = "Cut Quality",
+    y = "Price (USD)",
+    title = "Price by Cut Quality"
+  )
+```
+
+```{r}
+diamonds %>%
+  ggplot(aes(x = color, fill = cut)) +
+  geom_bar(position = "fill") +
+  scale_y_continuous(
+    breaks = seq(0, 1, 0.1),
+    labels = percent) +
+  theme(legend.position = "bottom") +
+  labs(
+    x = "Color",
+    y = "Percent",
+    fill = "Cut Quality",
+    title = "Cut Percentages by Color"
+  )
+```
