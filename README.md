@@ -1,7 +1,9 @@
 # The App Experts - Teaching Materials
 A collection of teaching materials, some of my own design, during my time with the App Experts in London
 
-The materials are divided by weeks.  Given here is a brief description of the material covered each week
+The materials are divided by weeks.  Given here is a brief description of the material covered each week.
+
+Here is the link to the Google Classroom that was used for the class: https://classroom.google.com/c/Mjg5Mzg4ODQ3ODVa
 
 Week_1: 1.)Python and R programming review.  
         
