@@ -1,5 +1,5 @@
 # The App Experts - Teaching Materials
-A collection of teaching materials, some of my own design, during my time with the App Experts in London
+A collection of teaching materials, most of my own design, during my time with the App Experts in London
 
 The materials are divided by weeks.  Given here is a brief description of the material covered each week.
 
