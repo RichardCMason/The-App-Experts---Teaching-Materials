@@ -1,9 +1,13 @@
 # The App Experts - Teaching Materials
 A collection of teaching materials, most of my own design, during my time with the App Experts in London
 
-The materials are divided by weeks.  Given here is a brief description of the material covered each week.
+### Summary of the training
+The materials contained in this repository were used in the trianing of 7 data science consultants of the App Experts, located in London, UK.  The training lasted for approximately 12 weeks where the goal was to learn and solidify the practice of a standard data science workflow, and the understanding required to be a practicing corporate data scientist.  The training was conducted by myself, with other trainers providing soft skill lessons.  The trainees were evaluated weekly, with both a weekly quiz and presentation.  I was responsible for judging the progress being made by each of the consultants, and it was up to me to determine who would graduate and who would be let go, so it was a managing experience as much as a teaching one for me.  
 
+The actual materials consist primarily of jupyter notebooks and powerpoints, and can be found in this repo sorted by week.   
 Here is the link to the Google Classroom that was used for the class: https://classroom.google.com/c/Mjg5Mzg4ODQ3ODVa
+
+### Table of contents
 
 Week_1: 1.)Python and R programming review.  
         
